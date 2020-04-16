@@ -39,6 +39,6 @@ Modern Portfolio Theory: alocamento de recursos baseado em alguns pesos
     - Focus on features, not on optimization
 There’s a great range of tools for optimization, genetic optimizations, non-convex optimizations, principal component analysis, statistical/Bayesian optimization, and a thousand fancy libraries. From my point of view, optimization will help improve a strategy by 10–20%; however, it won’t lead to a profitable strategy in the first place. If a strategy is bad, no optimization will help. Focus on deductive analysis and feature engineering — in simple terms, making sense out of the inputs and data.
     - Better data, better features, “Data is the oil of the digital world,”
-   - Fast feedback is a must
+    - Fast feedback is a must
 Competing with big players, especially in the HFT realm, is probably a bad idea (like I explained above). Going the opposite — holding trades for days, months, and years — also is not ideal. For me, the sweet spot is a holding time of 5 to 60 minutes. If I can’t test a strategy in 2 weeks with statistical significance (meaning more than 100 trades), I’m not investing my time in it. To test a strategy with a multi-day (and longer) holding period, I’d need months to validate, and this is not what I’m interested in.
    
