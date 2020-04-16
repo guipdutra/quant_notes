@@ -41,5 +41,13 @@ There’s a great range of tools for optimization, genetic optimizations, non-co
     - Better data, better features, “Data is the oil of the digital world,”
     - Fast feedback is a must
 Competing with big players, especially in the HFT realm, is probably a bad idea (like I explained above). Going the opposite — holding trades for days, months, and years — also is not ideal. For me, the sweet spot is a holding time of 5 to 60 minutes. If I can’t test a strategy in 2 weeks with statistical significance (meaning more than 100 trades), I’m not investing my time in it. To test a strategy with a multi-day (and longer) holding period, I’d need months to validate, and this is not what I’m interested in.
-    - The truth is, simple statistics, Monte Carlo simulation and a little bit of Python is all you need. Simple assumptions well simulated and validated can spot over-priced and under-priced bids and asks, that’s it. The fancy models are good for your ego and general understanding. In markets, a CS 101 probability and statistics is good enough for a profitable strategy.
+
+- The truth is, simple statistics, Monte Carlo simulation and a little bit of Python is all you need. Simple assumptions well simulated and validated can spot over-priced and under-priced bids and asks, that’s it. The fancy models are good for your ego and general understanding. In markets, a CS 101 probability and statistics is good enough for a profitable strategy.
+    Important questions you must ask yourself before using a Trading Strategy:
+  - Does it outperform a benchmark?
+  - Does it have a high enough Sharpe ratio?
+  - Does it have a small enough drawdown and short enough draw-down duration?
+  - Does the backtest suffer from survivorship bias?
+  - Does the strategy lose steam in recent years compared to its earlier years?
+  - Does the strategy have its own “niche” that protects it from intense competition from large institutional money managers?
    
