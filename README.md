@@ -49,5 +49,24 @@ Competing with big players, especially in the HFT realm, is probably a bad idea 
   - Does it have a small enough drawdown and short enough draw-down duration?
   - Does the backtest suffer from survivorship bias?
   - Does the strategy lose steam in recent years compared to its earlier years?
-  - Does the strategy have its own “niche” that protects it from intense competition from large institutional money managers?
-   
+  - Does the strategy have its own “niche” that protects it from intense competition from large institutional money managers? 
+  - Things to take care in Back-Testing:
+Data: Split/dividend adjustments, noise in daily high/low, and survivorship bias.
+Performance measurement: Annualized Sharpe ratio and maximum draw-down.
+Look-ahead bias: Using unobtainable future information for past trading decisions.
+Data-snooping bias: Using too many parameters to fit historical data, and avoiding it using large enough sample, out-of-sample testing, and sensitivity analysis.
+Transaction cost: Impact of transaction costs on performance.
+Strategy refinement: Common ways to make small variations on the strategy to optimize performance.
+
+
+
+
+### How we can implement RISK-Management Using Programming?:
+ - Calculating the Kelly criterion is relatively simple and relies on two basic components: your trading strategy’s win percentage probability and its win to loss ratio.
+The win percentage probability is the probability that a trade will have a positive return. The win to loss ratio is equal to your total trading profits divided by your total trading losses.
+These will help you arrive at a number called the Kelly percentage. This gives you a guide to what percentage of your trading account is the maximum amount you should risk on any given trade.
+The formula for the Kelly percentage looks like this:
+Kelly % = W — [(1 — W) / R]
+Kelly % = Kelly percentage
+W = Win percentage probability (total number of winning trades/total number of trades)
+R = Win to loss ratio (total amount gained by winning trades/total amount lost by losing trades)
